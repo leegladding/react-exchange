@@ -1,0 +1,98 @@
+.error{
+    color: #b94a48;
+    font-size: 14px;
+    max-width: calc(100% - 40px);
+    text-align: center;
+    margin: 5px auto;
+    display: block;
+}
+
+.rateList{
+    padding: 20px;
+    list-style: none;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.rateList li {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+
+.rateList li:last-child {
+    border: none;
+}
+
+.rateId{
+    color: #272296;
+    display: block;
+}
+
+.rateList li:hover {
+    font-size: 30px;
+    background: #f6f6f6;
+}
+
+.inputArea{
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputArea .submitButton{
+    background: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 7px 0;
+    display: block;
+    text-transform: uppercase;
+    outline: none;
+    border: 2px solid #226fbe;
+    border-radius: 60px;
+    color: #fff;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    background: #226fbe;
+    transition: all 0.3s;
+}
+
+.buttonWrapper{
+    max-width: 200px;
+    min-width: 100px;
+    margin: 5px 10px;
+    height: 43px;
+}
+
+/*Shows the component can be overridden*/
+.loaderParentStyles span{
+    background-color: #226fbe;
+}
+
+.inputArea input{
+    margin: 5px 10px;
+    background: rgba(0,0,0,0.15);
+    color: #226fbe;
+    font-size: 15px;
+    line-height: 15px;
+    border: 2px solid #226fbe;
+    padding: 5px 10px;
+}
+
+.inputArea .submitButton:hover,
+.inputArea .submitButton:focus{
+    background: transparent;
+    color: #226fbe;
+}
+
+@media only screen and (min-width: 600px) {
+    .inputArea{
+        flex-direction: row;
+    }
+}
