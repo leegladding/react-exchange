@@ -5,7 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To get the app running use the following in a terminal, in project's root folder:
 
-### 'yarn install'
+### `yarn install`
+
+then
 
 ### `yarn start`
 
